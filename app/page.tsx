@@ -7,7 +7,6 @@ export default function Home() {
       {/* 3.1 HERO */}
       <section style={{ backgroundColor: '#003366', padding: '120px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '48px', flexWrap: 'wrap' }}>
-          
           {/* Left: Copy */}
           <div style={{ flex: '1', minWidth: '300px', maxWidth: '620px' }}>
             <h1 style={{ color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(38px, 5vw, 58px)', lineHeight: 1.2, marginBottom: '24px' }}>
@@ -16,15 +15,11 @@ export default function Home() {
             <p style={{ color: '#ffffff', fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, marginBottom: '40px', maxWidth: '560px' }}>
               I help HR Tech and Health Tech companies plug the 5 critical gaps between "demo request" and "closed deal" — so you stop wasting pipeline you've already earned.
             </p>
-            <Link
-              href="https://calendly.com/fixyouremailmarketing/30mins"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
               style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
               Book My Free Diagnostic Call
             </Link>
           </div>
-
           {/* Right: SVG Funnel */}
           <div style={{ flex: '1', minWidth: '280px', display: 'flex', justifyContent: 'center' }}>
             <HeroSVG />
@@ -38,7 +33,6 @@ export default function Home() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '40px' }}>
             I've audited 50+ B2B SaaS conversion funnels and found the same 5 places where qualified leads quietly disappear:
           </p>
-
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '720px', marginBottom: '48px' }}>
             {[
               'Feature-focused messaging that triggers skepticism instead of "Positive Silence"',
@@ -53,7 +47,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-
           <div style={{ maxWidth: '720px' }}>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '16px' }}>
               If you're getting 50+ demo requests per month but closing fewer than 20%, you don't have a lead gen problem. You have a conversion infrastructure problem.
@@ -64,6 +57,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* 3.3 WHO I WORK WITH */}
       <section style={{ backgroundColor: '#ffffff', padding: '48px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
@@ -73,56 +67,35 @@ export default function Home() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '48px' }}>
             I specialize in conversion infrastructure for B2B SaaS companies in two verticals:
           </p>
-
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
-            
-            {/* HR Tech Card */}
             <div style={{ backgroundColor: '#003366', borderRadius: '8px', padding: '40px', color: '#ffffff', boxShadow: '0 4px 16px rgba(0,0,0,0.10)' }}>
-              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>
-                HR Tech Platforms
-              </h3>
+              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>HR Tech Platforms</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '24px' }}>
                 Your buyers aren't just evaluating software — they're managing internal resistance. Legal, IT, and HR leadership all have to sign off before anyone says yes. The objections that quietly kill HR Tech deals sound like:
               </p>
-              {[
-                '"What if we lose candidate or employee data?"',
-                '"What if this doesn\'t integrate with our HRIS?"',
-                '"What if our team never actually adopts it?"',
-              ].map((objection, i) => (
-                <p key={i} style={{ fontFamily: 'Inter, sans-serif', fontSize: '15px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', marginBottom: '8px' }}>
-                  {objection}
-                </p>
+              {['"What if we lose candidate or employee data?"', '"What if this doesn\'t integrate with our HRIS?"', '"What if our team never actually adopts it?"'].map((o, i) => (
+                <p key={i} style={{ fontFamily: 'Inter, sans-serif', fontSize: '15px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', marginBottom: '8px' }}>{o}</p>
               ))}
-              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginTop: '24px', margin: '24px 0 0' }}>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginTop: '24px' }}>
                 These aren't feature questions. They're trust gaps. I build the sequences and messaging frameworks that close them before they become deal-blockers.
               </p>
             </div>
-
-            {/* Health Tech Card */}
             <div style={{ backgroundColor: '#b34d19', borderRadius: '8px', padding: '40px', color: '#ffffff', boxShadow: '0 4px 16px rgba(0,0,0,0.10)' }}>
-              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>
-                Health Tech Platforms
-              </h3>
+              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>Health Tech Platforms</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '24px' }}>
                 Health Tech buyers carry weight that most SaaS buyers don't. Their decisions touch patient outcomes, clinical workflows, and regulatory standing. The questions that stall Health Tech deals sound like:
               </p>
-              {[
-                '"What if this violates HIPAA?"',
-                '"What if it disrupts patient care or clinical workflows?"',
-                '"How do we get our compliance team on board?"',
-              ].map((objection, i) => (
-                <p key={i} style={{ fontFamily: 'Inter, sans-serif', fontSize: '15px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', marginBottom: '8px' }}>
-                  {objection}
-                </p>
+              {['"What if this violates HIPAA?"', '"What if it disrupts patient care or clinical workflows?"', '"How do we get our compliance team on board?"'].map((o, i) => (
+                <p key={i} style={{ fontFamily: 'Inter, sans-serif', fontSize: '15px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', marginBottom: '8px' }}>{o}</p>
               ))}
-              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginTop: '24px', margin: '24px 0 0' }}>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginTop: '24px' }}>
                 The stakes are high and the scrutiny is higher. I craft conversion sequences that speak directly to these anxieties — turning cautious, committee-driven buyers into confident ones.
               </p>
             </div>
-
           </div>
         </div>
       </section>
+
       {/* 3.4 WHAT THESE INDUSTRIES SHARE */}
       <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
@@ -132,7 +105,6 @@ export default function Home() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', maxWidth: '720px', marginBottom: '40px' }}>
             These verticals aren't coincidentally similar — they're structurally alike in the ways that matter most for conversion:
           </p>
-
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '720px', marginBottom: '48px' }}>
             {[
               'High-stakes decisions that affect people\'s data, wellbeing, and compliance standing',
@@ -146,18 +118,16 @@ export default function Home() {
                   <circle cx="12" cy="12" r="10" stroke="#b34d19" strokeWidth="2"/>
                   <path d="M8 12l3 3 5-5" stroke="#b34d19" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', margin: 0 }}>
-                  {item}
-                </p>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', margin: 0 }}>{item}</p>
               </div>
             ))}
           </div>
-
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', maxWidth: '720px', borderTop: '1px solid rgba(255,255,255,0.2)', paddingTop: '32px' }}>
             If you're in a different B2B SaaS vertical but recognize this profile — complex sales, compliance-conscious buyers, high switching costs — my methodology can still apply. Let's talk.
           </p>
         </div>
       </section>
+
       {/* 3.5 SOLUTION STATEMENT */}
       <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
@@ -175,6 +145,7 @@ export default function Home() {
           </p>
         </div>
       </section>
+
       {/* 3.6 DIFFERENTIATOR */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
@@ -184,25 +155,12 @@ export default function Home() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '48px' }}>
             Most email copywriters hand you polished words. I hand you a working conversion system.
           </p>
-
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px' }}>
             {[
-              {
-                title: 'I start with your buyers, not a blank doc.',
-                body: 'Before I write a single line, I do Voice of Customer research — pulling the exact language your buyers use when they\'re frustrated, uncertain, or ready to move. Your emails end up sounding less like marketing and more like someone who genuinely understands the problem.',
-              },
-              {
-                title: 'I build for your funnel specifically.',
-                body: 'No templates. No recycled playbooks. Your competitors have different weaknesses. Your buyers have different fears. Your conversion system should reflect that — and mine does.',
-              },
-              {
-                title: 'I stay until it works.',
-                body: 'I don\'t deliver a strategy doc and disappear. I build the sequences, set them up in your ESP, and verify they\'re performing before you pay the final invoice. You\'re not buying advice. You\'re buying a result.',
-              },
-              {
-                title: 'I operate in your buyer\'s world.',
-                body: 'HR Tech and Health Tech aren\'t interchangeable with other SaaS verticals. The compliance anxieties, the stakeholder dynamics, the language that builds trust in these spaces — I know it, and I write for it.',
-              },
+              { title: 'I start with your buyers, not a blank doc.', body: 'Before I write a single line, I do Voice of Customer research — pulling the exact language your buyers use when they\'re frustrated, uncertain, or ready to move. Your emails end up sounding less like marketing and more like someone who genuinely understands the problem.' },
+              { title: 'I build for your funnel specifically.', body: 'No templates. No recycled playbooks. Your competitors have different weaknesses. Your buyers have different fears. Your conversion system should reflect that — and mine does.' },
+              { title: 'I stay until it works.', body: 'I don\'t deliver a strategy doc and disappear. I build the sequences, set them up in your ESP, and verify they\'re performing before you pay the final invoice. You\'re not buying advice. You\'re buying a result.' },
+              { title: 'I operate in your buyer\'s world.', body: 'HR Tech and Health Tech aren\'t interchangeable with other SaaS verticals. The compliance anxieties, the stakeholder dynamics, the language that builds trust in these spaces — I know it, and I write for it.' },
             ].map((item, i) => (
               <div key={i} style={{ backgroundColor: '#ffffff', borderLeft: '3px solid #cccccc', padding: '32px', borderRadius: '6px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
                 <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '18px', color: '#003366', marginBottom: '12px', lineHeight: 1.3 }}>
@@ -213,3 +171,9 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
