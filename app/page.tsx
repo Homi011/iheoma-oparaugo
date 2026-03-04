@@ -159,7 +159,6 @@ export default function Home() {
             {[
               { title: 'I start with your buyers, not a blank doc.', body: 'Before I write a single line, I do Voice of Customer research — pulling the exact language your buyers use when they\'re frustrated, uncertain, or ready to move. Your emails end up sounding less like marketing and more like someone who genuinely understands the problem.' },
               { title: 'I build for your funnel specifically.', body: 'No templates. No recycled playbooks. Your competitors have different weaknesses. Your buyers have different fears. Your conversion system should reflect that — and mine does.' },
-              { title: 'I stay until it works.', body: 'I don\'t deliver a strategy doc and disappear. I build the sequences, set them up in your ESP, and verify they\'re performing before you pay the final invoice. You\'re not buying advice. You\'re buying a result.' },
               { title: 'I operate in your buyer\'s world.', body: 'HR Tech and Health Tech aren\'t interchangeable with other SaaS verticals. The compliance anxieties, the stakeholder dynamics, the language that builds trust in these spaces — I know it, and I write for it.' },
             ].map((item, i) => (
               <div key={i} style={{ backgroundColor: '#ffffff', borderLeft: '3px solid #cccccc', padding: '32px', borderRadius: '6px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
@@ -172,8 +171,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
       {/* 3.7 CREDIBILITY NOTE */}
       <section style={{ backgroundColor: '#f5f5f5', padding: '80px 24px' }}>
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
@@ -197,39 +194,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* 3.8 HOW I WORK */}
-      <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '48px' }}>
-            How I Work
-          </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '48px' }}>
-            {[
-              {
-                title: 'Research-driven, not guesswork',
-                body: 'Every engagement starts with Voice of Customer analysis. I map the exact language your buyers use when they\'re in pain, then rebuild your messaging around it — so your emails stop sounding like marketing and start sounding like clarity.',
-              },
-              {
-                title: 'Built for your buyers, not someone else\'s',
-                body: 'No templates. No generic playbooks. Your competitors have different weaknesses, your customers have different anxieties. Your conversion system should reflect that.',
-              },
-              {
-                title: 'Implementation included',
-                body: 'I don\'t hand you a strategy doc and disappear. I build it, configure it in your ESP, and confirm it\'s working before you pay the final invoice.',
-              },
-            ].map((item, i) => (
-              <div key={i} style={{ borderTop: '2px solid #b34d19', paddingTop: '24px' }}>
-                <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>
-                  {item.title}
-                </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
-                  {item.body}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
       {/* 3.9 MID-PAGE CTA */}
       <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
@@ -249,15 +214,7 @@ export default function Home() {
       {/* 3.10 ABOUT SNAPSHOT */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '64px', flexWrap: 'wrap' }}>
-          
-          {/* Left: Photo */}
-          <div style={{ flex: '0 0 auto' }}>
-            <img
-              src="/images/headshot-about.jpg"
-              alt="Iheoma Oparaugo"
-              style={{ width: '320px', height: '380px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
-            />
-          </div>
+        
 
           {/* Right: Copy */}
           <div style={{ flex: '1', minWidth: '280px', maxWidth: '560px' }}>
