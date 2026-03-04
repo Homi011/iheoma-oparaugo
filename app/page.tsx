@@ -175,6 +175,47 @@ export default function Home() {
           </p>
         </div>
       </section>
+      {/* 3.6 DIFFERENTIATOR */}
+      <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '16px' }}>
+            Why this isn't like hiring a copywriter
+          </h2>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '48px' }}>
+            Most email copywriters hand you polished words. I hand you a working conversion system.
+          </p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '32px' }}>
+            {[
+              {
+                title: 'I start with your buyers, not a blank doc.',
+                body: 'Before I write a single line, I do Voice of Customer research — pulling the exact language your buyers use when they\'re frustrated, uncertain, or ready to move. Your emails end up sounding less like marketing and more like someone who genuinely understands the problem.',
+              },
+              {
+                title: 'I build for your funnel specifically.',
+                body: 'No templates. No recycled playbooks. Your competitors have different weaknesses. Your buyers have different fears. Your conversion system should reflect that — and mine does.',
+              },
+              {
+                title: 'I stay until it works.',
+                body: 'I don\'t deliver a strategy doc and disappear. I build the sequences, set them up in your ESP, and verify they\'re performing before you pay the final invoice. You\'re not buying advice. You\'re buying a result.',
+              },
+              {
+                title: 'I operate in your buyer\'s world.',
+                body: 'HR Tech and Health Tech aren\'t interchangeable with other SaaS verticals. The compliance anxieties, the stakeholder dynamics, the language that builds trust in these spaces — I know it, and I write for it.',
+              },
+            ].map((item, i) => (
+              <div key={i} style={{ backgroundColor: '#ffffff', borderLeft: '3px solid #b34d19', padding: '32px', borderRadius: '6px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+                <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '18px', color: '#003366', marginBottom: '12px', lineHeight: 1.3 }}>
+                  {item.title}
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
+                  {item.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
