@@ -77,7 +77,7 @@ export default function Home() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
             
             {/* HR Tech Card */}
-            <div style={{ backgroundColor: '#003366', borderRadius: '8px', padding: '40px', color: '#ffffff' }}>
+            <div style={{ backgroundColor: '#003366', borderRadius: '8px', padding: '40px', color: '#ffffff', boxShadow: '0 4px 16px rgba(0,0,0,0.10)' }}>
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>
                 HR Tech Platforms
               </h3>
@@ -99,7 +99,7 @@ export default function Home() {
             </div>
 
             {/* Health Tech Card */}
-            <div style={{ backgroundColor: '#b34d19', borderRadius: '8px', padding: '40px', color: '#ffffff' }}>
+            <div style={{ backgroundColor: '#b34d19', borderRadius: '8px', padding: '40px', color: '#ffffff', boxShadow: '0 4px 16px rgba(0,0,0,0.10)' }}>
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>
                 Health Tech Platforms
               </h3>
