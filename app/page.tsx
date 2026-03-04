@@ -204,7 +204,7 @@ export default function Home() {
                 body: 'HR Tech and Health Tech aren\'t interchangeable with other SaaS verticals. The compliance anxieties, the stakeholder dynamics, the language that builds trust in these spaces — I know it, and I write for it.',
               },
             ].map((item, i) => (
-              <div key={i} style={{ backgroundColor: '#ffffff', borderLeft: '3px solid #b34d19', padding: '32px', borderRadius: '6px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+              style={{ backgroundColor: '#ffffff', borderLeft: '3px solid #cccccc', padding: '32px', borderRadius: '6px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}
                 <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '18px', color: '#003366', marginBottom: '12px', lineHeight: 1.3 }}>
                   {item.title}
                 </h3>
