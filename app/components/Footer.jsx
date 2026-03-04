@@ -1,9 +1,9 @@
 export default function Footer() {
     return (
-      <footer className="bg-[#003366] py-8 px-6">
-        <div className="max-w-[1200px] mx-auto flex items-center justify-between flex-wrap gap-4">
-          <p className="text-white font-inter text-sm">
-            © <span suppressHydrationWarning>{new Date().getFullYear()}</span> Iheoma Oparaugo. All rights reserved.
+      <footer style={{ backgroundColor: '#003366', padding: '32px 24px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '16px' }}>
+          <p style={{ color: '#ffffff', fontFamily: 'Inter, sans-serif', fontSize: '14px', margin: 0 }}>
+            © {new Date().getFullYear()} Iheoma Oparaugo. All rights reserved.
           </p>
           <a href="https://www.linkedin.com/in/iheomaoparaugo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
