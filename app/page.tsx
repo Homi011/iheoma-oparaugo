@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import HeroSVG from './components/HeroSVG';
+import HeroSVG from './components/HeroSVG.jsx';
 
 export default function Home() {
   return (
