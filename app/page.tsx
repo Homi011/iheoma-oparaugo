@@ -63,7 +63,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>{/* 3.3 WHO I WORK WITH */}
+      </section>
+      {/* 3.3 WHO I WORK WITH */}
       <section style={{ backgroundColor: '#ffffff', padding: '48px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '16px' }}>
@@ -120,6 +121,41 @@ export default function Home() {
             </div>
 
           </div>
+        </div>
+      </section>
+      {/* 3.4 WHAT THESE INDUSTRIES SHARE */}
+      <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#ffffff', marginBottom: '16px' }}>
+            What These Industries Share
+          </h2>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', maxWidth: '720px', marginBottom: '40px' }}>
+            These verticals aren't coincidentally similar — they're structurally alike in the ways that matter most for conversion:
+          </p>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '720px', marginBottom: '48px' }}>
+            {[
+              'High-stakes decisions that affect people\'s data, wellbeing, and compliance standing',
+              'Risk-averse buyers with multiple internal stakeholders',
+              'Regulatory exposure — GDPR, SOC2, HIPAA — that slows every "yes"',
+              'Demo-driven or trial-based sales models where the handoff is everything',
+              'Consideration cycles running 30 to 90+ days',
+            ].map((item, i) => (
+              <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style={{ minWidth: '24px', marginTop: '2px' }}>
+                  <circle cx="12" cy="12" r="10" stroke="#b34d19" strokeWidth="2"/>
+                  <path d="M8 12l3 3 5-5" stroke="#b34d19" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', margin: 0 }}>
+                  {item}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', maxWidth: '720px', borderTop: '1px solid rgba(255,255,255,0.2)', paddingTop: '32px' }}>
+            If you're in a different B2B SaaS vertical but recognize this profile — complex sales, compliance-conscious buyers, high switching costs — my methodology can still apply. Let's talk.
+          </p>
         </div>
       </section>
     </>
