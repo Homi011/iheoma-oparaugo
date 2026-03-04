@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       {/* 3.2 THE 5 GAPS */}
-      <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
+      <section style={{ backgroundColor: '#fcfcfc', padding: '60px 24px 40px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '40px' }}>
             I've audited 50+ B2B SaaS conversion funnels and found the same 5 places where qualified leads quietly disappear:
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </div>
       </section>{/* 3.3 WHO I WORK WITH */}
-      <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
+      <section style={{ backgroundColor: '#ffffff', padding: '840px 24px 80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '16px' }}>
             Who I Work With
