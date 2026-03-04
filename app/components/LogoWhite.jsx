@@ -10,7 +10,7 @@ export default function LogoWhite() {
           Oparaugo
         </text>
         {/* Thin line under Oparaugo — dropped below text */}
-        <line x1="95" y1="34" x2="220" y2="34" stroke="rgba(255,255,255,0.6)" strokeWidth="1"/>
+        <line x1="95" y1="34" x2="196" y2="34" stroke="rgba(255,255,255,0.6)" strokeWidth="1"/>
       </svg>
     );
   }

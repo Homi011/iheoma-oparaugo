@@ -10,7 +10,7 @@ export default function LogoNavy() {
           Oparaugo
         </text>
         {/* Thin line under Oparaugo — dropped below text */}
-        <line x1="95" y1="34" x2="220" y2="34" stroke="#888888" strokeWidth="1"/>
+        <line x1="95" y1="34" x2="196" y2="34" stroke="#888888" strokeWidth="1"/>
       </svg>
     );
   }
