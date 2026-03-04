@@ -230,6 +230,55 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* 3.9 MID-PAGE CTA */}
+      <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
+        <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '16px' }}>
+            If you're an HR or Health SaaS team tired of watching conversions stall after the demo — I can help.
+          </p>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '40px' }}>
+            Sharp strategy. Sequences built for real buying psychology. Emails that finally move people to act.
+          </p>
+          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+            style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
+            Book a Strategy Call
+          </Link>
+        </div>
+      </section>
+
+      {/* 3.10 ABOUT SNAPSHOT */}
+      <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '64px', flexWrap: 'wrap' }}>
+          
+          {/* Left: Photo */}
+          <div style={{ flex: '0 0 auto' }}>
+            <img
+              src="/images/headshot-about.jpg"
+              alt="Iheoma Oparaugo"
+              style={{ width: '320px', height: '380px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
+            />
+          </div>
+
+          {/* Right: Copy */}
+          <div style={{ flex: '1', minWidth: '280px', maxWidth: '560px' }}>
+            <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '24px' }}>
+              So who's behind this?
+            </h2>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '16px' }}>
+              My name is Iheoma Oparaugo. I'm a B2B email conversion strategist who works specifically with HR Tech and Health Tech companies — the verticals where trust, compliance, and high-stakes decisions make or break every deal.
+            </p>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '32px' }}>
+              I don't do generic. I do specific: your buyers, your funnel, your gaps. And I stay until the system works.
+            </p>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px' }}>
+              Tired of leaving revenue on the table?
+            </p>
+            <a href="/about" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '15px', color: '#b34d19', textDecoration: 'underline' }}>
+              Learn more about how I work →
+            </a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
