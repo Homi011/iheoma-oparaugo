@@ -1,16 +1,16 @@
 export default function LogoNavy() {
     return (
-      <svg width="220" height="44" viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg">
+      <svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg">
         {/* Iheoma - Bold */}
-        <text x="0" y="28" fontFamily="Montserrat, sans-serif" fontWeight="700" fontSize="22" fill="#003366">
+        <text x="0" y="26" fontFamily="Montserrat, sans-serif" fontWeight="700" fontSize="22" fill="#003366">
           Iheoma
         </text>
-        {/* Oparaugo - Light weight */}
-        <text x="0" y="28" fontFamily="Montserrat, sans-serif" fontWeight="300" fontSize="22" fill="#003366" dx="95">
+        {/* Oparaugo - Medium */}
+        <text x="95" y="26" fontFamily="Montserrat, sans-serif" fontWeight="500" fontSize="22" fill="#003366">
           Oparaugo
         </text>
-        {/* Thin line under Oparaugo only */}
-        <line x1="95" y1="32" x2="218" y2="32" stroke="#cccccc" strokeWidth="1"/>
+        {/* Thin line under Oparaugo — dropped below text */}
+        <line x1="95" y1="34" x2="220" y2="34" stroke="#888888" strokeWidth="1"/>
       </svg>
     );
   }
