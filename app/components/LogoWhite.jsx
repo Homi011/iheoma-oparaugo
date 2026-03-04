@@ -1,9 +1,16 @@
 export default function LogoWhite() {
     return (
-      <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+      <svg width="220" height="44" viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg">
+        {/* Iheoma - Bold */}
         <text x="0" y="28" fontFamily="Montserrat, sans-serif" fontWeight="700" fontSize="22" fill="#ffffff">
-          Iheoma Oparaugo
+          Iheoma
         </text>
+        {/* Oparaugo - Light weight */}
+        <text x="0" y="28" fontFamily="Montserrat, sans-serif" fontWeight="300" fontSize="22" fill="#ffffff" dx="95">
+          Oparaugo
+        </text>
+        {/* Thin line under Oparaugo only */}
+        <line x1="95" y1="32" x2="218" y2="32" stroke="rgba(255,255,255,0.4)" strokeWidth="1"/>
       </svg>
     );
   }
