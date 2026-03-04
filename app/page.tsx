@@ -145,7 +145,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-
       {/* 3.6 DIFFERENTIATOR */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
@@ -194,7 +193,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
       {/* 3.9 MID-PAGE CTA */}
       <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
@@ -210,12 +208,9 @@ export default function Home() {
           </Link>
         </div>
       </section>
-
       {/* 3.10 ABOUT SNAPSHOT */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'center', gap: '64px', flexWrap: 'wrap' }}>
-        
-
           {/* Right: Copy */}
           <div style={{ flex: '1', minWidth: '280px', maxWidth: '560px' }}>
             <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '24px' }}>
