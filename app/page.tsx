@@ -63,6 +63,64 @@ export default function Home() {
             </p>
           </div>
         </div>
+      </section>{/* 3.3 WHO I WORK WITH */}
+      <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '16px' }}>
+            Who I Work With
+          </h2>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '48px' }}>
+            I specialize in conversion infrastructure for B2B SaaS companies in two verticals:
+          </p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
+            
+            {/* HR Tech Card */}
+            <div style={{ backgroundColor: '#003366', borderRadius: '8px', padding: '40px', color: '#ffffff' }}>
+              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>
+                HR Tech Platforms
+              </h3>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '24px' }}>
+                Your buyers aren't just evaluating software — they're managing internal resistance. Legal, IT, and HR leadership all have to sign off before anyone says yes. The objections that quietly kill HR Tech deals sound like:
+              </p>
+              {[
+                '"What if we lose candidate or employee data?"',
+                '"What if this doesn\'t integrate with our HRIS?"',
+                '"What if our team never actually adopts it?"',
+              ].map((objection, i) => (
+                <p key={i} style={{ fontFamily: 'Inter, sans-serif', fontSize: '15px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', marginBottom: '8px' }}>
+                  {objection}
+                </p>
+              ))}
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginTop: '24px', margin: '24px 0 0' }}>
+                These aren't feature questions. They're trust gaps. I build the sequences and messaging frameworks that close them before they become deal-blockers.
+              </p>
+            </div>
+
+            {/* Health Tech Card */}
+            <div style={{ backgroundColor: '#b34d19', borderRadius: '8px', padding: '40px', color: '#ffffff' }}>
+              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>
+                Health Tech Platforms
+              </h3>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '24px' }}>
+                Health Tech buyers carry weight that most SaaS buyers don't. Their decisions touch patient outcomes, clinical workflows, and regulatory standing. The questions that stall Health Tech deals sound like:
+              </p>
+              {[
+                '"What if this violates HIPAA?"',
+                '"What if it disrupts patient care or clinical workflows?"',
+                '"How do we get our compliance team on board?"',
+              ].map((objection, i) => (
+                <p key={i} style={{ fontFamily: 'Inter, sans-serif', fontSize: '15px', lineHeight: 1.6, color: 'rgba(255,255,255,0.75)', fontStyle: 'italic', marginBottom: '8px' }}>
+                  {objection}
+                </p>
+              ))}
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginTop: '24px', margin: '24px 0 0' }}>
+                The stakes are high and the scrutiny is higher. I craft conversion sequences that speak directly to these anxieties — turning cautious, committee-driven buyers into confident ones.
+              </p>
+            </div>
+
+          </div>
+        </div>
       </section>
     </>
   );
