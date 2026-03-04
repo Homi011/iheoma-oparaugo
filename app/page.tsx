@@ -197,6 +197,39 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* 3.8 HOW I WORK */}
+      <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '48px' }}>
+            How I Work
+          </h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '48px' }}>
+            {[
+              {
+                title: 'Research-driven, not guesswork',
+                body: 'Every engagement starts with Voice of Customer analysis. I map the exact language your buyers use when they\'re in pain, then rebuild your messaging around it — so your emails stop sounding like marketing and start sounding like clarity.',
+              },
+              {
+                title: 'Built for your buyers, not someone else\'s',
+                body: 'No templates. No generic playbooks. Your competitors have different weaknesses, your customers have different anxieties. Your conversion system should reflect that.',
+              },
+              {
+                title: 'Implementation included',
+                body: 'I don\'t hand you a strategy doc and disappear. I build it, configure it in your ESP, and confirm it\'s working before you pay the final invoice.',
+              },
+            ].map((item, i) => (
+              <div key={i} style={{ borderTop: '2px solid #b34d19', paddingTop: '24px' }}>
+                <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>
+                  {item.title}
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
+                  {item.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
