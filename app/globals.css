@@ -34,4 +34,6 @@
   .section-white { @apply bg-white py-20; }
   .section-navy { @apply bg-navy py-20; }
   .section-charcoal { @apply bg-charcoal py-20; }
+}footer {
+  background: #003366 !important;
 }

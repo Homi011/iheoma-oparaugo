@@ -24,7 +24,11 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link key={link.href} href={link.href}
-              className={`font-montserrat font-medium hover:text-[#b34d19] transition-colors pb-1 ${pathname === link.href ? 'text-[#b34d19] border-b-2 border-[#b34d19]' : 'text-[#4b4b4b]'}`}
+              className={`font-montserrat transition-colors pb-1 ${
+                pathname === link.href
+                  ? 'text-[#003366] font-bold border-b-2 border-[#003366]'
+                  : 'text-[#003366] font-medium hover:font-bold'
+              }`}
               style={{ fontSize: '15px' }}>
               {link.label}
             </Link>
@@ -38,9 +42,9 @@ export default function Navbar() {
 
         {/* Hamburger */}
         <button className="md:hidden flex flex-col gap-1.5 p-2 justify-center" onClick={() => setMenuOpen(!menuOpen)} style={{ minHeight: '44px', minWidth: '44px' }}>
-          <span className={`block w-6 h-0.5 bg-[#4b4b4b] transition-all duration-200 origin-center ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
-          <span className={`block w-6 h-0.5 bg-[#4b4b4b] transition-all duration-200 ${menuOpen ? 'opacity-0' : ''}`} />
-          <span className={`block w-6 h-0.5 bg-[#4b4b4b] transition-all duration-200 origin-center ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+          <span className={`block w-6 h-0.5 bg-[#003366] transition-all duration-200 origin-center ${menuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+          <span className={`block w-6 h-0.5 bg-[#003366] transition-all duration-200 ${menuOpen ? 'opacity-0' : ''}`} />
+          <span className={`block w-6 h-0.5 bg-[#003366] transition-all duration-200 origin-center ${menuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
         </button>
       </div>
 
@@ -49,7 +53,11 @@ export default function Navbar() {
         <div className="px-6 py-4 flex flex-col gap-2">
           {navLinks.map((link) => (
             <Link key={link.href} href={link.href} onClick={() => setMenuOpen(false)}
-              className={`font-montserrat font-medium py-3 ${pathname === link.href ? 'text-[#b34d19]' : 'text-[#4b4b4b]'}`}
+              className={`font-montserrat py-3 ${
+                pathname === link.href
+                  ? 'text-[#003366] font-bold underline'
+                  : 'text-[#003366] font-medium'
+              }`}
               style={{ fontSize: '15px', minHeight: '44px', display: 'flex', alignItems: 'center' }}>
               {link.label}
             </Link>
