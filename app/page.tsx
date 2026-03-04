@@ -174,6 +174,29 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* 3.7 CREDIBILITY NOTE */}
+      <section style={{ backgroundColor: '#f5f5f5', padding: '80px 24px' }}>
+        <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 3vw, 32px)', color: '#003366', marginBottom: '40px' }}>
+            Methodology that holds up under scrutiny
+          </h2>
+          <div style={{ backgroundColor: '#ffffff', borderRadius: '8px', padding: '48px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontStyle: 'italic', fontSize: '21px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px' }}>
+              "This is really great stuff."
+            </p>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '14px', color: '#888888', marginBottom: '32px' }}>
+              — VP, Leading HR Tech Firm
+            </p>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '40px' }}>
+              The conversion audit framework behind this work was reviewed by a VP at a leading HR Tech firm. Sometimes the right methodology finds the wrong timing. When you're ready, it'll be here.
+            </p>
+            <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+              style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
+              Book My Free Diagnostic Call
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
