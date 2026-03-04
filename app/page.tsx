@@ -185,7 +185,7 @@ export default function Home() {
             Most email copywriters hand you polished words. I hand you a working conversion system.
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '32px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px' }}>
             {[
               {
                 title: 'I start with your buyers, not a blank doc.',
