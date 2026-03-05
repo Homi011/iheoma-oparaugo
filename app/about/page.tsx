@@ -96,12 +96,12 @@ export default function About() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', maxWidth: '720px', marginBottom: '48px' }}>
             I do it differently — because I've found that the answers to generic questions rarely reveal where the real problem is.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '32px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px' }}>
             {[
               { n: '1', title: 'I read your customers\' reviews', body: 'I study how your buyers describe their pain before they found you — the exact language they use, the fears they name, the objections they carry. That\'s what your emails need to speak to.' },
               { n: '2', title: 'I map your funnel gaps', body: 'Where are prospects dropping off? Demo confirmations? Trial day three? Post-demo follow-up? I find the specific leaks, not generic ones — asking the questions that cut through the noise and point directly at the problem.' },
               { n: '3', title: 'I build the system', body: 'Sequences that activate users, handle unspoken objections, address compliance anxiety, and convert — using your customers\' exact language, not industry boilerplate.' },
-              { n: '4', title: 'I set it up', body: 'I don\'t hand you copy and disappear. I implement it in your ESP and make sure it actually works before the project closes.' },
+              { n: '4', title: 'I set it up', body: 'I don't hand you copy and disappear. Depending on your scope, I either implement it in your ESP myself or walk you through it — so you end up with a working system, not just deliverables.' },
             ].map((step, i) => (
               <div key={i} style={{ backgroundColor: 'rgba(255,255,255,0.07)', borderRadius: '8px', padding: '32px' }}>
                 <div style={{ width: '36px', height: '36px', borderRadius: '50%', backgroundColor: '#b34d19', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
