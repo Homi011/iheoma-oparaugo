@@ -17,7 +17,7 @@ const packages = [
       '60-minute strategic walkthrough',
     ],
     whoFor: 'Companies who want a clear picture of what\'s broken before committing to a full rebuild — and who have internal resources to implement the fixes.',
-    timeline: 'Timeline: 1–2 weeks | Starting from $1,200',
+    timeline: 'Timeline: 1–2 weeks',
   },
   {
     tab: '02 | The Foundation',
@@ -81,12 +81,12 @@ export default function Services() {
   return (
     <>
       {/* 4.1 HERO */}
-      <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
+      <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-          <h1 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(38px, 5vw, 58px)', color: '#003366', lineHeight: 1.2, marginBottom: '24px' }}>
+          <h1 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(38px, 5vw, 58px)', color: '#ffffff', lineHeight: 1.2, marginBottom: '24px' }}>
             Conversion Infrastructure for HR Tech and Health Tech
           </h1>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '40px', maxWidth: '620px', margin: '0 auto 40px' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '40px', maxWidth: '620px', margin: '0 auto 40px' }}>
             I rebuild the email systems between "demo request" and "closed deal" — so you stop leaking 30–40% of qualified pipeline.
           </p>
           <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
