@@ -4,8 +4,15 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Iheoma Oparaugo | B2B Email Conversion Strategist',
-  description: 'B2B email conversion strategy for HR Tech and Health Tech founders and revenue leaders.',
+  title: 'Iheoma Oparaugo | B2B Email Conversion Strategist for HR & Health Tech',
+  description: 'I help HR Tech and Health Tech companies plug the gaps between demo request and closed deal. Email conversion infrastructure built on real buyer psychology.',
+  openGraph: {
+    title: 'Plug the 40% Revenue Leak in Your Sales Pipeline',
+    description: 'I help HR Tech and Health Tech companies stop losing qualified pipeline after the demo. Email sequences, deliverability, and conversion infrastructure.',
+    images: ['/images/positive-silence-og.png'],
+    url: 'https://www.iheomaoparaugo.com',
+    type: 'website',
+  },
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon-32x32.png',

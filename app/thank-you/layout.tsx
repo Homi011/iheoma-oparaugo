@@ -1,4 +1,5 @@
 export const metadata = {
+    title: 'Thank You | Iheoma Oparaugo',
     robots: 'noindex, nofollow',
   };
   
