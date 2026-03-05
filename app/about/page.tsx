@@ -1,6 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
-
 export default function About() {
   return (
     <>
@@ -10,14 +8,11 @@ export default function About() {
           
           {/* Left: Headshot */}
           <div style={{ flex: '0 0 auto', display: 'flex', justifyContent: 'center' }}>
-            <Image
-              src="/images/headshot-about.jpg"
-              alt="Iheoma Oparaugo"
-              width={380}
-              height={440}
-              style={{ borderRadius: '8px', objectFit: 'cover', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
-              priority
-            />
+          <img
+  src="/images/headshot-about.jpg"
+  alt="Iheoma Oparaugo"
+  style={{ width: '380px', height: '440px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
+/>
           </div>
 
           {/* Right: Copy */}
