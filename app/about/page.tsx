@@ -48,28 +48,19 @@ export default function About() {
             Here's the problem I keep seeing:
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', marginBottom: '48px' }}>
-            
-            {/* HR Tech Card */}
             <div style={{ backgroundColor: '#ffffff', borderTop: '3px solid #003366', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
-              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>
-                In HR Tech:
-              </h3>
+              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>In HR Tech:</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
                 Companies spend thousands getting demo sign-ups, but 40% never show up. The pre-demo emails don't address the real anxiety — "What if this doesn't integrate? What if we lose candidate data?" — so prospects talk themselves out of it before the call even happens.
               </p>
             </div>
-
-            {/* Health Tech Card */}
             <div style={{ backgroundColor: '#ffffff', borderTop: '3px solid #003366', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
-              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>
-                In Health Tech:
-              </h3>
+              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>In Health Tech:</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
                 Trial users sign up but go quiet by day three because the onboarding emails tour features instead of proving compliance and safety first. The product is solid. The emails aren't doing their job.
               </p>
             </div>
           </div>
-
           <div style={{ maxWidth: '720px' }}>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '20px' }}>
               In both cases, it's not a product problem. It's a conversion infrastructure problem.
@@ -101,14 +92,16 @@ export default function About() {
               { n: '1', title: 'I read your customers\' reviews', body: 'I study how your buyers describe their pain before they found you — the exact language they use, the fears they name, the objections they carry. That\'s what your emails need to speak to.' },
               { n: '2', title: 'I map your funnel gaps', body: 'Where are prospects dropping off? Demo confirmations? Trial day three? Post-demo follow-up? I find the specific leaks, not generic ones — asking the questions that cut through the noise and point directly at the problem.' },
               { n: '3', title: 'I build the system', body: 'Sequences that activate users, handle unspoken objections, address compliance anxiety, and convert — using your customers\' exact language, not industry boilerplate.' },
-              { n: '4', title: 'I set it up', body: 'I don't hand you copy and disappear. Depending on your scope, I either implement it in your ESP myself or walk you through it — so you end up with a working system, not just deliverables.' },
+              { n: '4', title: 'I set it up', body: 'I don\'t hand you copy and disappear. Depending on your scope, I either implement it in your ESP myself or walk you through it — so you end up with a working system, not just deliverables.' },
             ].map((step, i) => (
-              <div key={i} style={{ backgroundColor: 'rgba(255,255,255,0.07)', borderRadius: '8px', padding: '32px' }}>
-                <div style={{ width: '36px', height: '36px', borderRadius: '50%', backgroundColor: '#b34d19', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '16px' }}>
+              <div key={i} style={{ backgroundColor: 'rgba(255,255,255,0.07)', borderRadius: '8px', padding: '32px', display: 'flex', alignItems: 'flex-start', gap: '24px' }}>
+                <div style={{ width: '36px', height: '36px', borderRadius: '50%', backgroundColor: '#b34d19', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                   <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '16px', color: '#ffffff' }}>{step.n}</span>
                 </div>
-                <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '18px', color: '#ffffff', marginBottom: '12px' }}>{step.title}</h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', margin: 0 }}>{step.body}</p>
+                <div>
+                  <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '18px', color: '#ffffff', marginBottom: '8px' }}>{step.title}</h3>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', margin: 0 }}>{step.body}</p>
+                </div>
               </div>
             ))}
           </div>
