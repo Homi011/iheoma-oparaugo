@@ -4,7 +4,7 @@ export default function LogoWhite() {
       <text x="0" y="26" fontFamily="Montserrat, sans-serif" fontWeight="400" fontSize="22" fill="#ffffff">
         Iheoma
       </text>
-      <text x="82" y="26" fontFamily="Montserrat, sans-serif" fontWeight="700" fontSize="22" fill="#ffffff">
+      <text x="86" y="26" fontFamily="Montserrat, sans-serif" fontWeight="700" fontSize="22" fill="#ffffff">
         Oparaugo
       </text>
     </svg>

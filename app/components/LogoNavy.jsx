@@ -4,7 +4,7 @@ export default function LogoNavy() {
       <text x="0" y="26" fontFamily="Montserrat, sans-serif" fontWeight="400" fontSize="22" fill="#003366">
         Iheoma
       </text>
-      <text x="82" y="26" fontFamily="Montserrat, sans-serif" fontWeight="700" fontSize="22" fill="#003366">
+      <text x="86" y="26" fontFamily="Montserrat, sans-serif" fontWeight="700" fontSize="22" fill="#003366">
         Oparaugo
       </text>
     </svg>
