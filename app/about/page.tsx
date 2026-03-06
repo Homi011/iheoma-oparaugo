@@ -18,11 +18,8 @@ export default function About() {
       <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'flex-start', gap: '64px', flexWrap: 'wrap' }}>
           <div style={{ flex: '0 0 auto', display: 'flex', justifyContent: 'center' }}>
-            <img
-              src="/images/headshot-about.jpg"
-              alt="Iheoma Oparaugo"
-              style={{ width: '380px', height: '440px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
-            />
+            <img src="/images/headshot-about.jpg" alt="Iheoma Oparaugo"
+              style={{ width: '380px', height: '440px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }} />
           </div>
           <div style={{ flex: '1', minWidth: '280px', maxWidth: '620px' }}>
             <h1 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(32px, 4vw, 46px)', color: '#003366', lineHeight: 1.2, marginBottom: '32px' }}>
@@ -81,7 +78,7 @@ export default function About() {
       {/* 5.3 MY APPROACH */}
       <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#ffffff', marginBottom: '16px' textAlign: 'center' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#ffffff', marginBottom: '16px', textAlign: 'center' }}>
             How I Actually Work
           </h2>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', maxWidth: '720px', margin: '0 auto 16px' }}>
