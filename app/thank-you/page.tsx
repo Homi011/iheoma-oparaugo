@@ -35,7 +35,7 @@ export default function ThankYou() {
           <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', textAlign: 'center', marginBottom: '48px' }}>
             Here's What to Do Next:
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: '24px' }}>
             {[
               { n: '1', title: 'Confirm your subscription', body: 'Check your email for a confirmation message and click the link inside. This ensures your checklist gets through and you stay on the list.' },
               { n: '2', title: 'Download your checklist', body: 'Open the checklist and run through all 5 pillars. It takes about 10 minutes — set aside focused time so you can be honest with yourself.' },
