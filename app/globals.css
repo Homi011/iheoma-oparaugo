@@ -37,3 +37,6 @@
 }footer {
   background: #003366 !important;
 }
+#kit-embed > div {
+  margin: 0 auto !important;
+}
