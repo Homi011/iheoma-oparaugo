@@ -81,13 +81,13 @@ export default function About() {
       {/* 5.3 MY APPROACH */}
       <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#ffffff', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#ffffff', marginBottom: '16px' textAlign: 'center' }}>
             How I Actually Work
           </h2>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', maxWidth: '720px', marginBottom: '16px' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', maxWidth: '720px', margin: '0 auto 16px' }}>
             Most email marketers send you a questionnaire, write emails based on your answers, hand them over, and hope for the best.
           </p>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', maxWidth: '720px', marginBottom: '48px' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', maxWidth: '720px', margin: '0 auto 48px' }}>
             I do it differently — because I've found that the answers to generic questions rarely reveal where the real problem is.
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px', margin: '0 auto' }}>
