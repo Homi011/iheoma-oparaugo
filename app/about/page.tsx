@@ -11,7 +11,6 @@ export default function About() {
     script.setAttribute('data-uid', 'bc5e0828cc');
     document.getElementById('kit-embed')?.appendChild(script);
   }, []);
-
   return (
     <>
       {/* 5.1 OPENING SPLIT LAYOUT */}
