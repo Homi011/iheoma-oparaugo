@@ -1,6 +1,6 @@
 export default function HeroSVG() {
   const leaks = [
-    ['Skepticism-triggering', 'copy'],
+    ['Skepticism-', 'triggering copy'],
     ['Weak demo', 'confirmations'],
     ['Sequences that', 'stop too soon'],
     ['Deliverability', 'leaks'],

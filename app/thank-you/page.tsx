@@ -52,14 +52,7 @@ export default function ThankYou() {
         </div>
       </section>
 
-      {/* 7.4 TRANSITION LINE */}
-      <section style={{ backgroundColor: '#fcfcfc', padding: '64px 24px' }}>
-        <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: 1.6, color: '#003366' }}>
-            Either way, here's what's possible when the whole system works.
-          </p>
-        </div>
-      </section>
+      
 
       {/* 7.5 BOOKING SECTION */}
       <section style={{ backgroundColor: '#003366', padding: '80px 24px' }}>

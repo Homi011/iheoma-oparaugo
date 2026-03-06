@@ -1,7 +1,18 @@
+'use client';
+import { useEffect } from 'react';
 import Link from 'next/link';
 import HeroSVG from './components/HeroSVG.jsx';
 
 export default function Home() {
+    useEffect(() => {
+      const script = document.createElement('script');
+      script.src = 'https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js';
+      script.async = true;
+      script.setAttribute('data-uid', 'bc5e0828cc');
+      document.getElementById('kit-embed')?.appendChild(script);
+    }, []);
+  
+    return (
   return (
     <>
       {/* 3.1 HERO */}
@@ -250,10 +261,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3.12 NEWSLETTER */}
+      {/* NEWSLETTER */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
-        <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
-        <div dangerouslySetInnerHTML={{ __html: '<script async data-uid="bc5e0828cc" src="https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js"></script>' }} />
+        <div id="kit-embed" style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
         </div>
       </section>
 
