@@ -67,7 +67,7 @@ export default function Home() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '48px' }}>
             I specialize in conversion infrastructure for B2B SaaS companies in two verticals:
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '24px', maxWidth: '1000px' }}>
             <div style={{ backgroundColor: '#003366', borderRadius: '8px', padding: '40px', color: '#ffffff', boxShadow: '0 4px 16px rgba(0,0,0,0.10)' }}>
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '26px', color: '#ffffff', marginBottom: '16px' }}>HR Tech Platforms</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '24px' }}>
@@ -253,7 +253,7 @@ export default function Home() {
       {/* 3.12 NEWSLETTER */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
-          <script async data-uid="bc5e0828cc" src="https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js"></script>
+        <div dangerouslySetInnerHTML={{ __html: '<script async data-uid="bc5e0828cc" src="https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js"></script>' }} />
         </div>
       </section>
 

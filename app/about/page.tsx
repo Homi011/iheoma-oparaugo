@@ -166,7 +166,7 @@ export default function About() {
       {/* 5.7 NEWSLETTER */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
-          <script async data-uid="bc5e0828cc" src="https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js"></script>
+        <div dangerouslySetInnerHTML={{ __html: '<script async data-uid="bc5e0828cc" src="https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js"></script>' }} />
         </div>
       </section>
     </>
