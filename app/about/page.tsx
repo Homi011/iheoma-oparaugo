@@ -11,22 +11,19 @@ export default function About() {
     script.setAttribute('data-uid', 'bc5e0828cc');
     document.getElementById('kit-embed')?.appendChild(script);
   }, []);
+
   return (
     <>
       {/* 5.1 OPENING SPLIT LAYOUT */}
       <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', alignItems: 'flex-start', gap: '64px', flexWrap: 'wrap' }}>
-          
-          {/* Left: Headshot */}
           <div style={{ flex: '0 0 auto', display: 'flex', justifyContent: 'center' }}>
-          <img
-  src="/images/headshot-about.jpg"
-  alt="Iheoma Oparaugo"
-  style={{ width: '380px', height: '440px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
-/>
+            <img
+              src="/images/headshot-about.jpg"
+              alt="Iheoma Oparaugo"
+              style={{ width: '380px', height: '440px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
+            />
           </div>
-
-          {/* Right: Copy */}
           <div style={{ flex: '1', minWidth: '280px', maxWidth: '620px' }}>
             <h1 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(32px, 4vw, 46px)', color: '#003366', lineHeight: 1.2, marginBottom: '32px' }}>
               I Help HR and Health Tech Companies Stop Leaking Pipeline and Start Closing the Deals They've Already Earned
@@ -54,13 +51,13 @@ export default function About() {
             Here's the problem I keep seeing:
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', marginBottom: '48px' }}>
-            <div style={{ backgroundColor: '#ffffff', borderTop: 'borderTop: borderTop: '3px solid #b34d19', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+            <div style={{ backgroundColor: '#ffffff', borderTop: '3px solid #b34d19', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>In HR Tech:</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
                 Companies spend thousands getting demo sign-ups, but 40% never show up. The pre-demo emails don't address the real anxiety — "What if this doesn't integrate? What if we lose candidate data?" — so prospects talk themselves out of it before the call even happens.
               </p>
             </div>
-            <div style={{ backgroundColor: '#ffffff', borderTop: borderTop: '3px solid #b34d19', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+            <div style={{ backgroundColor: '#ffffff', borderTop: '3px solid #b34d19', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>In Health Tech:</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
                 Trial users sign up but go quiet by day three because the onboarding emails tour features instead of proving compliance and safety first. The product is solid. The emails aren't doing their job.
@@ -95,9 +92,9 @@ export default function About() {
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px', margin: '0 auto' }}>
             {[
-              { n: '1', title: 'I read your customers\' reviews', body: 'I study how your buyers describe their pain before they found you — the exact language they use, the fears they name, the objections they carry. That\'s what your emails need to speak to.' },
+              { n: '1', title: 'I read your customers reviews', body: 'I study how your buyers describe their pain before they found you — the exact language they use, the fears they name, the objections they carry. That\'s what your emails need to speak to.' },
               { n: '2', title: 'I map your funnel gaps', body: 'Where are prospects dropping off? Demo confirmations? Trial day three? Post-demo follow-up? I find the specific leaks, not generic ones — asking the questions that cut through the noise and point directly at the problem.' },
-              { n: '3', title: 'I build the system', body: 'Sequences that activate users, handle unspoken objections, address compliance anxiety, and convert — using your customers\' exact language, not industry boilerplate.' },
+              { n: '3', title: 'I build the system', body: 'Sequences that activate users, handle unspoken objections, address compliance anxiety, and convert — using your customers exact language, not industry boilerplate.' },
               { n: '4', title: 'I set it up', body: 'I don\'t hand you copy and disappear. Depending on your scope, I either implement it in your ESP myself or walk you through it — so you end up with a working system, not just deliverables.' },
             ].map((step, i) => (
               <div key={i} style={{ backgroundColor: 'rgba(255,255,255,0.07)', borderRadius: '8px', padding: '32px', display: 'flex', alignItems: 'flex-start', gap: '24px' }}>
@@ -122,7 +119,7 @@ export default function About() {
               "She doesn't chase more leads. She studies what happens after someone raises their hand... The first three minutes of a demo. The structure of follow-up. The language on your homepage. And she asks a simple question: is this designed — or is it default?"
             </p>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '14px', color: '#888888', margin: 0 }}>
-            — Jeff Blanck, <a href="https://substack.com/@jeffblanck" target="_blank" rel="noopener noreferrer" style={{ color: '#b34d19', textDecoration: 'underline' }}>Love + Actions = Wins!</a>
+              — Jeff Blanck, <a href="https://substack.com/@jeffblanck" target="_blank" rel="noopener noreferrer" style={{ color: '#b34d19', textDecoration: 'underline' }}>Love + Actions = Wins!</a>
             </p>
           </div>
         </div>
@@ -174,7 +171,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* NEWSLETTER */}
+      {/* 5.7 NEWSLETTER */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div id="kit-embed" style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
         </div>
