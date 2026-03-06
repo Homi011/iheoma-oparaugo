@@ -43,13 +43,13 @@ export default function About() {
             Here's the problem I keep seeing:
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', marginBottom: '48px' }}>
-            <div style={{ backgroundColor: '#ffffff', borderTop: '3px solid #003366', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+            <div style={{ backgroundColor: '#ffffff', borderTop: 'borderTop: borderTop: '3px solid #b34d19', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>In HR Tech:</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
                 Companies spend thousands getting demo sign-ups, but 40% never show up. The pre-demo emails don't address the real anxiety — "What if this doesn't integrate? What if we lose candidate data?" — so prospects talk themselves out of it before the call even happens.
               </p>
             </div>
-            <div style={{ backgroundColor: '#ffffff', borderTop: '3px solid #003366', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
+            <div style={{ backgroundColor: '#ffffff', borderTop: borderTop: '3px solid #b34d19', padding: '36px', borderRadius: '0 0 8px 8px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}>
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '20px', color: '#003366', marginBottom: '16px' }}>In Health Tech:</h3>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', margin: 0 }}>
                 Trial users sign up but go quiet by day three because the onboarding emails tour features instead of proving compliance and safety first. The product is solid. The emails aren't doing their job.
@@ -82,7 +82,7 @@ export default function About() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.85)', maxWidth: '720px', marginBottom: '48px' }}>
             I do it differently — because I've found that the answers to generic questions rarely reveal where the real problem is.
           </p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px', margin: '0 auto' }}>
             {[
               { n: '1', title: 'I read your customers\' reviews', body: 'I study how your buyers describe their pain before they found you — the exact language they use, the fears they name, the objections they carry. That\'s what your emails need to speak to.' },
               { n: '2', title: 'I map your funnel gaps', body: 'Where are prospects dropping off? Demo confirmations? Trial day three? Post-demo follow-up? I find the specific leaks, not generic ones — asking the questions that cut through the noise and point directly at the problem.' },
@@ -111,7 +111,7 @@ export default function About() {
               "She doesn't chase more leads. She studies what happens after someone raises their hand... The first three minutes of a demo. The structure of follow-up. The language on your homepage. And she asks a simple question: is this designed — or is it default?"
             </p>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '14px', color: '#888888', margin: 0 }}>
-              — Jeff Blanck, Love + Actions = Wins!
+            — Jeff Blanck, <a href="https://substack.com/@jeffblanck" target="_blank" rel="noopener noreferrer" style={{ color: '#b34d19', textDecoration: 'underline' }}>Love + Actions = Wins!</a>
             </p>
           </div>
         </div>
