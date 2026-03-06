@@ -40,3 +40,8 @@
 #kit-embed > div {
   margin: 0 auto !important;
 }
+@media (max-width: 640px) {
+  .thankyou-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
