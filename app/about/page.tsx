@@ -173,7 +173,12 @@ export default function About() {
 
       {/* 5.7 NEWSLETTER */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
-        <div id="kit-embed" style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
+        <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
+          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 3vw, 32px)', color: '#003366', marginBottom: '40px' }}>
+            Get Conversion Insights That Actually Move the Needle
+          </h2>
+          <div id="kit-embed" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          </div>
         </div>
       </section>
     </>
