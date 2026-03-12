@@ -12,7 +12,7 @@ export async function POST(request: Request) {
         'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: 'Contact Form <onboarding@resend.dev>',
+        from: 'Contact Form <iheoma@iheomaoparaugo.com>',
         to: 'iheoma@iheomaoparaugo.com',
         subject: `New message from ${fullName}`,
         html: `
