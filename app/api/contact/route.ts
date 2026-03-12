@@ -2,28 +2,36 @@ import { NextResponse } from 'next/server';
 
 export async function POST(request: Request) {
   try {
-    const { fullName, email, company, message } = await request.json();
-    const apiKey = process.env.KIT_API_KEY;
+    const body = await request.json();
+    const { fullName, email, company, message } = body;
 
-    const response = await fetch('https://api.kit.com/v4/subscribers', {
+    const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'X-Kit-Api-Key': apiKey || '',
+        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        email_address: email,
-        first_name: fullName,
-        fields: { company, message },
+        from: 'Contact Form <onboarding@resend.dev>',
+        to: 'iheoma@iheomaoparaugo.com',
+        subject: `New message from ${fullName}`,
+        html: `
+          <h2>New Contact Form Submission</h2>
+          <p><strong>Name:</strong> ${fullName}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Company:</strong> ${company}</p>
+          <p><strong>Message:</strong></p>
+          <p>${message}</p>
+        `,
       }),
     });
 
-    if (response.ok) {
-      return NextResponse.json({ success: true });
-    } else {
-      return NextResponse.json({ error: 'Failed' }, { status: 400 });
+    if (!res.ok) {
+      throw new Error('Failed to send email');
     }
-  } catch {
-    return NextResponse.json({ error: 'Server error' }, { status: 500 });
+
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    return NextResponse.json({ error: 'Failed to send message' }, { status: 500 });
   }
 }

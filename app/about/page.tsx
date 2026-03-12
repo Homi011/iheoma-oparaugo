@@ -1,16 +1,10 @@
 'use client';
-import { useEffect } from 'react';
+
 import Link from 'next/link';
 
 export default function About() {
 
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js';
-    script.async = true;
-    script.setAttribute('data-uid', 'bc5e0828cc');
-    document.getElementById('kit-embed')?.appendChild(script);
-  }, []);
+  
 
   return (
     <>
@@ -168,13 +162,31 @@ export default function About() {
         </div>
       </section>
 
-      {/* 5.7 NEWSLETTER */}
+      {/* NEWSLETTER */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
           <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 3vw, 32px)', color: '#003366', marginBottom: '40px' }}>
             Get Conversion Insights That Actually Move the Needle
           </h2>
-          <div id="kit-embed" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div dangerouslySetInnerHTML={{ __html: `
+              <form action="https://app.kit.com/forms/9147754/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="9147754" data-uid="bc5e0828cc" data-format="inline" data-version="6" min-width="400 500 600 700 800" style="background-color:rgb(11,34,57);border-radius:12px;max-width:460px;width:100%;">
+                <div data-style="card">
+                  <div data-element="column" class="formkit-column" style="background-color:rgb(227,227,227);">
+                    <div class="formkit-header" data-element="header" style="color:rgb(0,51,102);font-size:20px;font-weight:700;"><h2>Is your pipeline leaking 40% of its potential?</h2></div>
+                  </div>
+                  <div data-element="column" class="formkit-column">
+                    <div class="formkit-subheader" data-element="subheader" style="color:rgb(203,202,202);font-size:15px;"><p>Get the <strong>Positive Silence Checklist</strong>—the exact 15-point diagnostic I use to find the hidden gaps in HR and Health Tech sales cycles.</p></div>
+                    <div data-element="fields" class="seva-fields formkit-fields">
+                      <div class="formkit-field"><input class="formkit-input" aria-label="First Name" name="fields[first_name]" required placeholder="First Name" type="text" style="color:rgb(77,77,77);border-color:rgb(227,227,227);border-radius:4px;font-weight:400;width:100%;padding:15px 12px;font-size:14px;margin-bottom:15px;"></div>
+                      <div class="formkit-field"><input class="formkit-input" name="email_address" aria-label="Email address" placeholder="Email address" required type="email" style="color:rgb(77,77,77);border-color:rgb(227,227,227);border-radius:4px;font-weight:400;width:100%;padding:15px 12px;font-size:14px;margin-bottom:15px;"></div>
+                      <button data-element="submit" class="formkit-submit" style="color:rgb(255,255,255);background-color:rgb(214,76,6);border-radius:24px;font-weight:700;width:100%;padding:12px 24px;border:0;cursor:pointer;font-size:15px;">Get My Free Checklist</button>
+                    </div>
+                    <div class="formkit-guarantee" style="color:rgb(125,125,125);font-size:13px;text-align:center;margin-top:25px;"><p>Checklist + the <strong>Pipeline Authority</strong> weekly brief. Unsubscribe anytime.</p></div>
+                  </div>
+                </div>
+              </form>
+            `}} />
           </div>
         </div>
       </section>
