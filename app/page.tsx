@@ -1,10 +1,17 @@
 'use client';
-
+import { useEffect } from 'react';
 import Link from 'next/link';
+
 import HeroSVG from './components/HeroSVG.jsx';
 
 export default function Home() {
-    
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js';
+    script.async = true;
+    script.setAttribute('data-uid', 'bc5e0828cc');
+    document.getElementById('kit-embed')?.appendChild(script);
+  }, []);
   return (
     <>
       {/* 3.1 HERO */}
@@ -259,36 +266,7 @@ export default function Home() {
           <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 3vw, 32px)', color: '#003366', marginBottom: '40px' }}>
             Get Conversion Insights That Actually Move the Needle
           </h2>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <script async src="https://f.convertkit.com/ckjs/ck.6.js"></script>
-            <form action="https://app.kit.com/forms/9147754/subscriptions" className="seva-form formkit-form" method="post" data-sv-form="9147754" data-uid="bc5e0828cc" data-format="inline" data-version="6" min-width="400 500 600 700 800" style={{ backgroundColor: 'rgb(11,34,57)', borderRadius: '12px', maxWidth: '460px', width: '100%' }}>
-              <div data-style="card">
-                <div data-element="column" className="formkit-column" style={{ backgroundColor: 'rgb(227,227,227)' }}>
-                  <div className="formkit-header" data-element="header" style={{ color: 'rgb(0,51,102)', fontSize: '20px', fontWeight: 700 }}>
-                    <h2>Is your pipeline leaking 40% of its potential?</h2>
-                  </div>
-                </div>
-                <div data-element="column" className="formkit-column">
-                  <div className="formkit-subheader" data-element="subheader" style={{ color: 'rgb(203,202,202)', fontSize: '15px' }}>
-                    <p>Get the <strong>Positive Silence Checklist</strong>—the exact 15-point diagnostic I use to find the hidden gaps in HR and Health Tech sales cycles.</p>
-                  </div>
-                  <div data-element="fields" className="seva-fields formkit-fields">
-                    <div className="formkit-field">
-                      <input className="formkit-input" aria-label="First Name" name="fields[first_name]" required placeholder="First Name" type="text" style={{ color: 'rgb(77,77,77)', borderColor: 'rgb(227,227,227)', borderRadius: '4px', fontWeight: 400 }} />
-                    </div>
-                    <div className="formkit-field">
-                      <input className="formkit-input" name="email_address" aria-label="Email address" placeholder="Email address" required type="email" style={{ color: 'rgb(77,77,77)', borderColor: 'rgb(227,227,227)', borderRadius: '4px', fontWeight: 400 }} />
-                    </div>
-                    <button data-element="submit" className="formkit-submit" style={{ color: 'rgb(255,255,255)', backgroundColor: 'rgb(214,76,6)', borderRadius: '24px', fontWeight: 700 }}>
-                      <span>Get My Free Checklist</span>
-                    </button>
-                  </div>
-                  <div className="formkit-guarantee" style={{ color: 'rgb(125,125,125)', fontSize: '13px', textAlign: 'center', marginTop: '25px' }}>
-                    <p>Checklist + the <strong>Pipeline Authority</strong> weekly brief. Unsubscribe anytime.</p>
-                  </div>
-                </div>
-              </div>
-            </form>
+          <div id="kit-embed" style={{ display: 'flex', justifyContent: 'center' }}>
           </div>
         </div>
       </section>
