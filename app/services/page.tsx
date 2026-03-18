@@ -89,7 +89,7 @@ export default function Services() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '40px', maxWidth: '620px', margin: '0 auto 40px' }}>
             I rebuild the email systems between "demo request" and "closed deal" — so you stop leaking 30–40% of qualified pipeline.
           </p>
-          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+          <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
             style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
             Book My Diagnostic Call
           </Link>
@@ -160,7 +160,7 @@ export default function Services() {
               {packages[activeTab].timeline}
             </p>
 
-            <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+            <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
               style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
               Book My Diagnostic Call
             </Link>
@@ -279,7 +279,7 @@ export default function Services() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '40px' }}>
             Book a free 30-minute strategy call and I'll show you exactly where your email conversion infrastructure is broken — and what it takes to fix it.
           </p>
-          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+          <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
             style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}>
             Book Your Strategy Call
           </Link>

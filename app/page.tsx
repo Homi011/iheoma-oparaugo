@@ -25,7 +25,7 @@ export default function Home() {
             <p style={{ color: '#ffffff', fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, marginBottom: '40px', maxWidth: '560px' }}>
               I help HR Tech and Health Tech companies plug the 5 critical gaps between "demo request" and "closed deal" — so you stop wasting pipeline you've already earned.
             </p>
-            <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+            <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
               style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
               Book My Free Diagnostic Call
             </Link>
@@ -199,7 +199,7 @@ export default function Home() {
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '40px' }}>
               The conversion audit framework behind this work was reviewed by a VP at a leading HR Tech firm. Sometimes the right methodology finds the wrong timing. When you're ready, it'll be here.
             </p>
-            <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+            <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
               style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
               Book My Free Diagnostic Call
             </Link>
@@ -216,7 +216,7 @@ export default function Home() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '40px' }}>
             Sharp strategy. Sequences built for real buying psychology. Emails that finally move people to act.
           </p>
-          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+          <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
             style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
             Book a Strategy Call
           </Link>
@@ -230,7 +230,7 @@ export default function Home() {
             So who's behind this?
           </h2>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '16px' }}>
-            My name is Iheoma Oparaugo. I'm a B2B email conversion strategist who works specifically with HR Tech and Health Tech companies — the verticals where trust, compliance, and high-stakes decisions make or break every deal.
+          My name is Iheoma Oparaugo — you can call me Homi. I'm a B2B email conversion strategist who works specifically with HR Tech and Health Tech companies — the verticals where trust, compliance, and high-stakes decisions make or break every deal.
           </p>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '16px' }}>
             I don't do generic. I do specific: your buyers, your funnel, your gaps. And I stay until the system works.
@@ -250,7 +250,7 @@ export default function Home() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '32px' }}>
             Every month you wait is another month of demos that don't close.
           </p>
-          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+          <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
             style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block', marginBottom: '16px' }}>
             Fix My Conversion Leaks
           </Link>

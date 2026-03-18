@@ -56,7 +56,7 @@ export default function Contact() {
             Let's Talk Strategy
           </h1>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b' }}>
-            Whether you have a question, a project in mind, or just want to explore what's possible — I'm all ears.
+            Have a question, a project in mind, or just want to explore what's possible? I'm all ears.
           </p>
         </div>
       </section>
@@ -65,7 +65,7 @@ export default function Contact() {
       <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
         <div style={{ maxWidth: '640px', margin: '0 auto' }}>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', textAlign: 'center', marginBottom: '48px' }}>
-            Have a question, need clarity, or want to explore what's possible? Here's how to reach me:
+            Here are 3 ways to reach me:
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
 
@@ -85,7 +85,7 @@ export default function Contact() {
             </a>
 
             {/* Calendly */}
-            <a href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+            <a href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
               style={{ backgroundColor: '#ffffff', borderRadius: '8px', padding: '32px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)', textDecoration: 'none', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" style={{ minWidth: '28px', marginTop: '2px' }}>
                 <rect x="3" y="4" width="18" height="18" rx="2" stroke="#003366" strokeWidth="1.5"/>
@@ -178,7 +178,7 @@ export default function Contact() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '40px' }}>
             Book a free 30-minute strategy call and I'll show you exactly where your conversion infrastructure is broken — and what it takes to fix it.
           </p>
-          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+          <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
             style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block' }}>
             Book Your Strategy Call
           </Link>

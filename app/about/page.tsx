@@ -27,7 +27,7 @@ export default function About() {
               I Help HR and Health Tech Companies Stop Leaking Pipeline and Start Closing the Deals They've Already Earned
             </h1>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '20px' }}>
-              My name is Iheoma Oparaugo. I'm a B2B email conversion strategist — and the way I work has less to do with templates and more to do with diagnosis.
+            My name is Iheoma Oparaugo — you can call me Homi. I'm a B2B email conversion strategist — and the way I work has less to do with templates and more to do with diagnosis.
             </p>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '20px' }}>
               A friend once called me the "family therapist." The one who hears what's not being said, finds the real friction underneath the surface problem, and moves calmly toward a solution. That instinct is exactly what I bring to conversion work.
@@ -158,7 +158,7 @@ export default function About() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: 'rgba(255,255,255,0.9)', marginBottom: '40px' }}>
             Book a free 30-minute strategy call. We'll walk through your funnel, I'll show you the gaps I see, and you'll leave with a clear picture of what needs fixing — whether you hire me or not.
           </p>
-          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+          <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
             style={{ backgroundColor: '#b34d19', color: '#ffffff', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', padding: '16px 32px', borderRadius: '6px', textDecoration: 'none', display: 'inline-block', marginBottom: '32px' }}>
             Book Your Strategy Call
           </Link>
