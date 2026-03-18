@@ -161,12 +161,12 @@ export default function Home() {
       {/* 3.6 DIFFERENTIATOR */}
       <section style={{ backgroundColor: '#fcfcfc', padding: '80px 24px' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '16px' }}>
-            Why this isn't like hiring a copywriter
-          </h2>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', maxWidth: '720px', marginBottom: '48px' }}>
-            Most email copywriters hand you polished words. I hand you a working conversion system.
-          </p>
+        <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(30px, 4vw, 38px)', color: '#003366', marginBottom: '16px', textAlign: 'center' }}>
+  Why this isn't like hiring a copywriter
+</h2>
+<p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '40px', textAlign: 'center' }}>
+  Most email copywriters hand you polished words. I hand you a working conversion system.
+</p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px' }}>
             {[
               { title: 'I start with your buyers, not a blank doc.', body: 'Before I write a single line, I do Voice of Customer research — pulling the exact language your buyers use when they\'re frustrated, uncertain, or ready to move. Your emails end up sounding less like marketing and more like someone who genuinely understands the problem.' },
