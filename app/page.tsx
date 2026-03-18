@@ -135,7 +135,7 @@ export default function Home() {
       {/* 3.5 SOLUTION STATEMENT */}
       <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-          <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: 'clamp(22px, 3vw, 26px)', color: '#b34d19', marginBottom: '24px' textAlign: 'left' }}>
+          <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: 'clamp(22px, 3vw, 26px)', color: '#b34d19', marginBottom: '24px', textAlign: 'left' }}>
             What changes when your conversion infrastructure actually works
           </h3>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px', textAlign: 'left' }}>
