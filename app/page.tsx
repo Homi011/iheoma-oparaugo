@@ -167,7 +167,7 @@ export default function Home() {
 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '40px', textAlign: 'center' }}>
   Most email copywriters hand you polished words. I hand you a working conversion system.
 </p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px' }}>
+<div style={{ display: 'flex', flexDirection: 'column', gap: '20px', maxWidth: '860px', margin: '0 auto' }}>
             {[
               { title: 'I start with your buyers, not a blank doc.', body: 'Before I write a single line, I do Voice of Customer research — pulling the exact language your buyers use when they\'re frustrated, uncertain, or ready to move. Your emails end up sounding less like marketing and more like someone who genuinely understands the problem.' },
               { title: 'I build for your funnel specifically.', body: 'No templates. No recycled playbooks. Your competitors have different weaknesses. Your buyers have different fears. Your conversion system should reflect that — and mine does.' },
