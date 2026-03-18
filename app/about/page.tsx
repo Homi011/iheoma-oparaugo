@@ -1,12 +1,21 @@
 'use client';
-
+import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 
 
 export default function About() {
 
   
-  
+  const kitLoaded = useRef(false);
+  useEffect(() => {
+    if (kitLoaded.current) return;
+    kitLoaded.current = true;
+    const script = document.createElement('script');
+    script.src = 'https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js';
+    script.async = true;
+    script.setAttribute('data-uid', 'bc5e0828cc');
+    document.getElementById('kit-embed')?.appendChild(script);
+  }, []);
   return (
     <>
       {/* 5.1 OPENING SPLIT LAYOUT */}
@@ -169,11 +178,7 @@ export default function About() {
           <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 3vw, 32px)', color: '#003366', marginBottom: '40px' }}>
             Get Conversion Insights That Actually Move the Needle
           </h2>
-          <iframe
-            src="https://iheoma-oparaugo.kit.com/bc5e0828cc"
-            style={{ width: '100%', minHeight: '500px', border: 'none', borderRadius: '12px' }}
-            title="Newsletter signup"
-          />
+          <div id="kit-embed" style={{ display: 'flex', justifyContent: 'center' }} />
         </div>
       </section>
     </>

@@ -1,11 +1,20 @@
 'use client';
-
+import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 
 import HeroSVG from './components/HeroSVG.jsx';
 
 export default function Home() {
-  
+  const kitLoaded = useRef(false);
+  useEffect(() => {
+    if (kitLoaded.current) return;
+    kitLoaded.current = true;
+    const script = document.createElement('script');
+    script.src = 'https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js';
+    script.async = true;
+    script.setAttribute('data-uid', 'bc5e0828cc');
+    document.getElementById('kit-embed')?.appendChild(script);
+  }, []);
   return (
     <>
       {/* 3.1 HERO */}
@@ -134,17 +143,17 @@ export default function Home() {
 
       {/* 3.5 SOLUTION STATEMENT */}
       <section style={{ backgroundColor: '#ffffff', padding: '80px 24px' }}>
-        <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-          <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: 'clamp(22px, 3vw, 26px)', color: '#b34d19', marginBottom: '24px', textAlign: 'left' }}>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: 'clamp(22px, 3vw, 26px)', color: '#b34d19', marginBottom: '24px' }}>
             What changes when your conversion infrastructure actually works
           </h3>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px', textAlign: 'left' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '20px' }}>
             Most HR Tech and Health Tech teams lose deals not because their product is weak — but because their emails don't speak to what their buyers are actually afraid of.
           </p>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px', textAlign: 'left' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '20px' }}>
             When your sequences are built around real buyer psychology — the specific anxieties, objections, and trust signals that move your ICP — something shifts. Prospects stop going quiet after the demo. Follow-ups get replies instead of silence. Trial users who were drifting start engaging. Deals that used to stall at the 30-day mark start closing.
           </p>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '22px', color: '#003366', textAlign: 'left' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '18px', color: '#003366' }}>
             That's not a pipeline problem solved. That's a revenue system rebuilt.
           </p>
         </div>
@@ -260,11 +269,7 @@ export default function Home() {
           <h2 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 3vw, 32px)', color: '#003366', marginBottom: '40px' }}>
             Get Conversion Insights That Actually Move the Needle
           </h2>
-          <iframe
-            src="https://iheoma-oparaugo.kit.com/bc5e0828cc"
-            style={{ width: '100%', minHeight: '500px', border: 'none', borderRadius: '12px' }}
-            title="Newsletter signup"
-          />
+          <div id="kit-embed" style={{ display: 'flex', justifyContent: 'center' }} />
         </div>
       </section>
 
