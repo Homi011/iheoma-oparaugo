@@ -84,7 +84,7 @@ export default function Contact() {
               </div>
             </a>
 
-            {/* Calendly */}
+
             <a href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
               style={{ backgroundColor: '#ffffff', borderRadius: '8px', padding: '32px', boxShadow: '0 4px 16px rgba(0,0,0,0.08)', textDecoration: 'none', display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" style={{ minWidth: '28px', marginTop: '2px' }}>

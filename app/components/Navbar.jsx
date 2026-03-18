@@ -62,7 +62,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link href="https://calendly.com/fixyouremailmarketing/30mins" target="_blank" rel="noopener noreferrer"
+          <Link href="https://tidycal.com/iheomaoparaugo1/email-revenue-diagnosis-call" target="_blank" rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
             className="bg-[#b34d19] text-white font-montserrat font-semibold px-6 py-3 rounded text-center mt-2 hover:opacity-90"
             style={{ fontSize: '16px' }}>

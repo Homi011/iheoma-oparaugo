@@ -7,11 +7,14 @@ export default function About() {
 
   
   useEffect(() => {
+    const timer = setTimeout(() => {
     const script = document.createElement('script');
     script.src = 'https://iheoma-oparaugo.kit.com/bc5e0828cc/index.js';
     script.async = true;
     script.setAttribute('data-uid', 'bc5e0828cc');
     document.getElementById('kit-embed')?.appendChild(script);
+  }, 500);
+  return () => clearTimeout(timer);
   }, []);
   return (
     <>
