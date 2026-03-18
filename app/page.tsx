@@ -138,13 +138,13 @@ export default function Home() {
           <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: 'clamp(22px, 3vw, 26px)', color: '#b34d19', marginBottom: '24px' textAlign: 'left' }}>
             What changes when your conversion infrastructure actually works
           </h3>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px' textAlign: 'left' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px', textAlign: 'left' }}>
             Most HR Tech and Health Tech teams lose deals not because their product is weak — but because their emails don't speak to what their buyers are actually afraid of.
           </p>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px' textAlign: 'left' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '17px', lineHeight: 1.6, color: '#4b4b4b', marginBottom: '24px', textAlign: 'left' }}>
             When your sequences are built around real buyer psychology — the specific anxieties, objections, and trust signals that move your ICP — something shifts. Prospects stop going quiet after the demo. Follow-ups get replies instead of silence. Trial users who were drifting start engaging. Deals that used to stall at the 30-day mark start closing.
           </p>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '22px', color: '#003366' textAlign: 'left' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '22px', color: '#003366', textAlign: 'left' }}>
             That's not a pipeline problem solved. That's a revenue system rebuilt.
           </p>
         </div>
